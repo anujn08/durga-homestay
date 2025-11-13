@@ -1,0 +1,12 @@
+/* WhatsApp button fix to remove green dot */
+.whatsapp-contact .fab.fa-whatsapp::after {
+    display: none !important;
+}
+
+.whatsapp-contact .fab.fa-whatsapp {
+    position: relative;
+}
+
+.whatsapp-contact .fab.fa-whatsapp:before {
+    color: #25D366;
+}
